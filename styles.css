@@ -31,7 +31,18 @@ p {
 img {
   width: 80%;
 }
-
+button{
+  padding: 1% 5%;
+  font-size: 1.5em;
+  background-color: #EEEEEE;
+  border: none;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #232931;
+  border: 1px solid #EEEEEE;
+  color: #EEEEEE;
+}
 footer {
   margin-top: 5%;
   color: #EEEEEE;

@@ -26,6 +26,12 @@ document.querySelector(".img2").setAttribute("src", randomImageSource2);
 // Select the heading
 text = document.querySelector("h1");
 
+// Restart the app
+
+document.querySelector("#restart").addEventListener("click", () => {
+    location.href="./dicee.html";
+})
+
 //Display winner condition
 if (randomNumber1 > randomNumber2) {
     text.textContent = "🚩 " + player1 + " Wins!";
