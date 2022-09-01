@@ -29,7 +29,7 @@ text = document.querySelector("h1");
 // Restart the app
 
 document.querySelector("#restart").addEventListener("click", () => {
-    location.href="./dicee.html";
+    location.href="./index.html";
 })
 
 //Display winner condition
